@@ -1,0 +1,144 @@
+#education{
+    margin: 75px 70px;
+    .decoration{
+        position: relative;
+        .top-right{
+            position: absolute;
+            left: -40px;
+            transform: rotate(160deg);
+            top: -60px;
+            
+        }
+        .bottom-left{
+            position: absolute;
+            right: 0;
+            transform: translateY(-100%);
+            
+        }
+    }
+
+
+    
+    .title{
+        text-align: center;
+        margin-bottom: 88px;
+        
+        span{
+            font-size: 20px;
+            font-weight: 500;
+            color: #0C96E2
+        }
+        h1{
+            font-weight: 600;
+            font-size: 40px;
+        }
+        
+    }
+
+    .table{
+        display: flex;
+        justify-content: space-between;
+    }
+    .field{
+        position: relative;
+        border-left: 2px dashed #344054;
+        padding-left: 15px;
+        
+
+    }
+        .field h3{
+
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 14px;
+        }
+        .field p{
+            color: #98A2B3;
+        }
+        .field::before{
+            content: url('/src/assets/point.png');
+            position: absolute;
+            top: -12px;
+            transform: translateX(-100%);
+            padding: 0 5px;
+        }
+        .scroll-btn{
+            position: absolute;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            background-color: #0C96E2;
+            color: white;
+            border: none;
+            
+           
+
+            
+        }
+        .info{
+            background-image:url(/src/assets/bg2-education.png),url(/src/assets/bg1-education.png) ;
+            background-size :cover;
+            background-repeat: no-repeat;
+            margin-top: 165px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 120px 136px;
+            
+            .desc{
+                color: #FFFFFF;
+                max-width: 580px;
+                h2{
+                    font-size: 48px;
+                    font-weight: 600;
+                }
+                p{
+                    span{
+                        font-weight: bold;
+                    }
+                }
+
+            }
+            .btn-contact{
+                width: 155px;
+                height: 50px;
+                border-radius: 6px;
+                background-color: #0C96E2;
+                border: none;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            }
+
+
+        }
+    }
+    @media screen and (max-width : 992px){
+        #education{
+            margin: 50px 20px;
+            .title{
+                text-align: center;
+            }
+            .table{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 10px;
+            }
+            img{
+                display: none;
+            }
+            .info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                row-gap: 10px;
+                background-size:auto;
+                padding: 30px;
+            }
+        }
+    }

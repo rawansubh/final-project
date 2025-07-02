@@ -1,0 +1,40 @@
+.card-content{
+    max-width: 370px;
+    img{
+        width: 100%;
+        border-radius: 8px;
+        height: 220px;
+        
+
+    }
+    h1{
+        font-size: 22px;
+        margin-top: 32px;
+    }
+    .desc{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-size: 16px;
+
+        }
+        button{
+            color:#0C96E2;
+            border: none;
+            background: none;
+            font-size: 35px;
+        }
+
+    }
+
+
+}
+@media screen and (max-width : 992px){
+    .card-content{
+        margin: 0 auto;
+        .desc{
+            flex-direction: column;
+        }
+        
+    }
+}

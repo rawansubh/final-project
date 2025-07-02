@@ -1,0 +1,65 @@
+#projects{
+    margin: 94px 70px;
+    .projects-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            h6{
+                color: #0C96E2;
+                font-size: 20px;
+                font-weight: 500; 
+            }
+            h1{
+                max-width: 362px;
+                font-size: 40px;
+                font-weight: 600;
+                
+                span{
+                    color: #0C96E2;
+                    letter-spacing: -3%;
+                }
+            }
+        }
+        .right-btn{
+
+            button{
+                width: 163.47496032714844px;
+                border-radius: 8px;
+                background-color: #0C96E2;
+                color: #ffffff;
+                padding: 13px 40px;
+                border: none;
+                position: relative;
+            
+
+        }
+        .icon{
+            position: absolute;
+            right: 20px;
+            
+        }
+    }
+    }
+    .project-body{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        margin-top: 56px;
+    }
+
+}
+@media screen and (max-width : 992px){
+    #projects{
+        margin: 20px;
+        text-align: center;
+        .projects-header{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+    }
+}
