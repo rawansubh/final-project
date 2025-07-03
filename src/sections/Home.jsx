@@ -4,7 +4,7 @@ import './Home.css'
 
 const Home = () => {
   const downloadCV = () =>{
-    window.open("https://drive.google.com/uc?export=download&id=1IU10iX9NNF2o9MrQzrLaXqpajyfryt3J")
+    window.open("https://drive.google.com/file/d/1OD1AY-ien58yqBKGb1MrkeQl9ymQ91Al/view?usp=sharing")
   }
   return (
     <section id='home' >
